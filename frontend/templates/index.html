@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .chat-container {
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+        }
+        .chat-history {
+            margin-top: 20px;
+        }
+        .message-container {
+            margin-bottom: 20px;
+        }
+        .message-bubble {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 15px;
+            display: inline-block;
+            max-width: 80%;
+        }
+        .user-message {
+            text-align: left;
+            color: #007bff;
+        }
+        .bot-message {
+            text-align: left;
+            color: #28a745;
+        }
+        .message-bubble p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <h1 class="text-center">Chatbot App</h1>
+        <div class="chat-history">
+            {% for chat in chat_history %}
+            <div class="message-container">
+                <div class="message-bubble user-message">
+                    <p>User: {{ chat['User'] }}</p>
+                </div>
+                <div class="message-bubble bot-message">
+                    <p>Knowbot: {{ chat['Knowbot'] }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <form method="post">
+            <div class="form-group">
+                <input type="text" class="form-control" id="user_input" name="user_input" placeholder="Type your message here..." required>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+        {% if error %}
+        <p class="text-danger">{{ error }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>

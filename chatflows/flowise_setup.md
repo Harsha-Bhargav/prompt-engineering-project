@@ -6,7 +6,7 @@ There are three main ways to set up Flowise on your local system:
 2. **Cloning the Git repository and running it locally**
 3. **Installing Flowise via npm**
 
-### 1. Using Docker and Docker Compose
+## 1. Using Docker and Docker Compose
 
 Prerequisites:
 - Make sure you have Docker and Docker Compose installed on your machine.
@@ -52,7 +52,7 @@ Installation Steps:
    docker-compose stop
    ```
 
-### 2. Cloning the Git repository and running it locally
+## 2. Cloning the Git repository and running it locally
 
 Prerequisites:
 - Make sure you have Node.js and npm installed on your machine.
@@ -80,7 +80,7 @@ Installation Steps:
 
 5. Access the Flowise application by opening your web browser and navigating to `http://localhost:3000`.
 
-### 3. Installing Flowise via npm
+## 3. Installing Flowise via npm
 
 Prerequisites:
 - Make sure you have Node.js and npm installed on your machine.

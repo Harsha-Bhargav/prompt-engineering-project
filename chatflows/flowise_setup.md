@@ -99,3 +99,64 @@ Installation Steps:
 3. Access the Flowise application by opening your web browser and navigating to `http://localhost:3000`.
 
 Choose the method that best suits your needs and environment. For more detailed information on configuration and deployment options, please refer to the official Flowise documentation at https://docs.flowiseai.com/ .
+
+
+# Setting up Pinecone Vector Database for Knowbot Application
+
+To enable document embedding and retrieval for your Knowbot application, you need to set up a Pinecone vector database. Here are the steps to get started:
+
+### Create a Pinecone Account
+1. Go to the Pinecone website (https://www.pinecone.io/) and create a free account.
+2. After signing up, you will be redirected to the Pinecone dashboard.
+
+### Create an Index
+1. In the Pinecone dashboard, click on "Create Index".
+2. Choose a name for your index, such as "knowbot-index".
+3. Set the DIMENSIONS to 1536, which is the default output size of the text-embedding-ada-002 model used by Flowise.
+4. Leave the other settings as default and click "Create Index".
+
+### Obtain API Key and Environment
+1. In the Pinecone dashboard, go to the "API Keys" section.
+2. Copy your API key and environment. You will need these for configuring the Pinecone client.
+
+### Configure Pinecone Client
+1. In your Flowise application, install the Pinecone client library:
+   ```bash
+   npm install @pinecone-database/pinecone
+   ```
+
+2. Import the Pinecone client and configure it with your API key and environment:
+   ```javascript
+   const pinecone = new PineconeClient();
+
+   await pinecone.init({
+     environment: 'YOUR_PINECONE_ENVIRONMENT',
+     apiKey: 'YOUR_PINECONE_API_KEY',
+   });
+   ```
+
+### Upsert Embeddings to Pinecone Index
+1. After generating the embeddings for your documents using Flowise, you can upsert them to the Pinecone index:
+   ```javascript
+   const index = pinecone.Index('knowbot-index');
+
+   await index.upsert({
+     upsertRequest: {
+       vectors: [
+         { id: 'doc1', values: doc1Embedding },
+         { id: 'doc2', values: doc2Embedding },
+         // Add more documents
+       ],
+     },
+   });
+   ```
+
+2. The `upsert` operation will add the embeddings to the Pinecone index, allowing for efficient vector similarity search.
+
+By following these steps, you will have set up a Pinecone vector database to store and retrieve document embeddings for your Knowbot application. The Pinecone index will enable fast and accurate retrieval of relevant documents based on user queries [4].
+
+Citations:
+[1] https://docs.flowiseai.com/getting-started
+[2] https://github.com/FlowiseAI/Flowise
+[3] https://docs.flowiseai.com
+[4] https://www.youtube.com/watch?v=ZjooYLnS2mQ

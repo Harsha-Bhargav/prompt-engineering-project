@@ -20,7 +20,7 @@ The primary objective of this project is to develop KnowBot, an intelligent TA b
 
 ### Setting up Flowise and Pinecone Vector Database
 
-Detailed instructions for setting up Flowise and Pinecone Vector Database can be found in the README file [here](/chatflows/flowise_setup.md).
+Detailed instructions for setting up Flowise and Pinecone Vector Database can be found in the README file [here](chatflows/flowise_setup.md).
 
 ### Programming the Chatbot
 

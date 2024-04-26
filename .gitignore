@@ -1,2 +1,3 @@
 mlops.py
 .env
+.DS_store

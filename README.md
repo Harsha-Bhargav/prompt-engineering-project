@@ -1,41 +1,52 @@
-This project can act as a guides on how to create a chatbot from strach. This is done as a part of Prompt Engineering course (Info 7375) for Spring'24 at Northeastern University under the guidance of Prof. Nick Bear Brown. 
+Certainly! Here's a structured outline for your README file:
 
+---
 
-## Task 1: Platform Selection and Setup
+# Chatbot Project: KnowBot
 
-### 1.1 Platform: 
-We are using flowise ai platform for setting up our base chatbot. Flowise is an open source low-code tool for developers to build customized LLM orchestration flow & AI agents.
+This project serves as a guide on how to create a chatbot from scratch. Developed as a part of the Prompt Engineering course (Info 7375) for Spring '24 at Northeastern University under the guidance of Prof. Nick Bear Brown.
 
-### 1.2 Quick Setup
+## Project Overview
 
-Download and Install [NodeJS](https://nodejs.org/en/download) >= 18.15.0
+KnowBot is a chatbot designed to act as a teaching assistant (TA) for the course. It assists professors and students by providing guidance, answering questions, and delivering course-related information. KnowBot is built using Flowise, Pinecone Vector Database, and OpenAI technologies.
 
-1. Install Flowise
-    ```bash
-    npm install -g flowise
-    ```
-2. Start Flowise
+## Objectives
 
-    ```bash
-    npx flowise start
-    ```
+The primary objective of this project is to develop KnowBot, an intelligent TA bot, to support both professors and students in the course. KnowBot aims to enhance the learning experience by providing timely and accurate assistance with course materials and queries.
 
-    With username & password
+## Technology Stack
 
-    ```bash
-    npx flowise start --FLOWISE_USERNAME=user --FLOWISE_PASSWORD=1234
-    ```
+- **Flowise:** Utilized for building chatbot workflows and integrating language models.
+- **Pinecone Vector Database:** Used for efficient storage and retrieval of knowledge.
+- **OpenAI:** Employs AI models for natural language understanding and generation.
 
-3. Open [http://localhost:3000](http://localhost:3000)
+## Setup Instructions
 
+### Setting up Flowise and Pinecone Vector Database
 
-## Task 2: Replicating this chatbot:
+Detailed instructions for setting up Flowise and Pinecone Vector Database can be found in the README file [here](link_to_setup_readme).
 
+### Programming the Chatbot
 
+To program KnowBot, follow these steps:
+1. Upload PDFs of class-related documents to the bot in the Flowise UI on localhost port 3000 in the Chatflows section.
 
+### Obtaining the Chatbot API
 
-## Task 3: Testing and quality 
+To get the chatbot API or bot UI:
+1. Add a `.env` file with the API_URL, replacing it with the URL obtained from Flowise.
 
+### Testing Process
 
+To test KnowBot:
+1. Upload a document and check the answers on this document.
+2. Ensure error handling is functional.
+Detailed testing instructions can be found in the README file [here](link_to_testing_readme).
 
+## Theory and Quiz
 
+For in-depth information about Flowise, Vector DB, and chatbots, refer to the theory and quiz section in the README file [here](link_to_theory_quiz_readme).
+
+---
+
+This README provides a comprehensive overview of the project, including its objectives, technology stack, setup instructions, testing process, and resources for further exploration. Feel free to expand or modify any section as needed.

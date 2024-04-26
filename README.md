@@ -1,30 +1,26 @@
-Certainly! Here's a structured outline for your README file:
-
----
-
 # Chatbot Project: KnowBot
 
 This project serves as a guide on how to create a chatbot from scratch. Developed as a part of the Prompt Engineering course (Info 7375) for Spring '24 at Northeastern University under the guidance of Prof. Nick Bear Brown.
 
 ## Project Overview
 
-KnowBot is a chatbot designed to act as a teaching assistant (TA) for the course. It assists professors and students by providing guidance, answering questions, and delivering course-related information. KnowBot is built using Flowise, Pinecone Vector Database, and OpenAI technologies.
+KnowBot is a chatbot designed to act as a teaching assistant (TA) for any course. It assists professors and students by providing guidance, answering questions, and delivering course-related information. KnowBot is built using Flowise, Pinecone Vector Database, and OpenAI technologies.
 
 ## Objectives
 
-The primary objective of this project is to develop KnowBot, an intelligent TA bot, to support both professors and students in the course. KnowBot aims to enhance the learning experience by providing timely and accurate assistance with course materials and queries.
+The primary objective of this project is to develop KnowBot, an intelligent TA bot, to support students in the course. KnowBot aims to enhance the learning experience by providing timely and accurate assistance with course materials and queries.
 
 ## Technology Stack
 
-- **Flowise:** Utilized for building chatbot workflows and integrating language models.
-- **Pinecone Vector Database:** Used for efficient storage and retrieval of knowledge.
-- **OpenAI:** Employs AI models for natural language understanding and generation.
+- **Flowise:** Utilized for building chatbot workflows and integrating language models, vector databases, chains.
+- **Pinecone Vector Database:** Used for efficient storage and retrieval of knowledge in vecor format.
+- **OpenAI models:** Employs AI models for natural language understanding and generation of embeddings.
 
 ## Setup Instructions
 
 ### Setting up Flowise and Pinecone Vector Database
 
-Detailed instructions for setting up Flowise and Pinecone Vector Database can be found in the README file [here](link_to_setup_readme).
+Detailed instructions for setting up Flowise and Pinecone Vector Database can be found in the README file [here](/chatflows/flowise_setup.md).
 
 ### Programming the Chatbot
 

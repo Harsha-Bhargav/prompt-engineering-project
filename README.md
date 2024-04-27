@@ -18,7 +18,8 @@ The primary objective of this project is to develop KnowBot, an intelligent TA b
 
 ## Theory and Quiz
 
-For in-depth information about Flowise, Vector DB, and chatbots, refer to the theory and quiz section in the report.md file [here](reports/quiz.md).
+For in-depth information about Flowise, Vector DB, and chatbots, refer to the theory section in the report.md file [here](reports/report.md).
+For a quick check after going through the theory, here is a [quiz](reports/quiz.md).
 
 ## Setup Instructions
 

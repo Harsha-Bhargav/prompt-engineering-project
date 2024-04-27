@@ -31,7 +31,7 @@ def index():
         if user_input:
             bot_response = chatbot(user_input)
             # Add the new message at the end of the chat history
-            session["chat_history"].append({"User": user_input, "Knowbot": bot_response["answer"] if "answer" in bot_response else "Sorry, I couldn't understand that."})
+            session["chat_history"].append({"User": user_input, "Knowbot": bot_response["text"] if "text" in bot_response else "Sorry, I couldn't understand that."})
         else:
             return render_template("index.html", error="Please enter a message.")
 

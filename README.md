@@ -41,12 +41,12 @@ To get the chatbot API or bot UI:
 To test KnowBot:
 1. Upload a document and check the answers on this document.
 2. Ensure error handling is functional.
-Detailed testing instructions can be found in the report file [here](https://github.com/Harsha-Bhargav/prompt-engineering-project/blob/main/Report.md).
+Detailed testing instructions can be found in the report file [here](https://github.com/Harsha-Bhargav/prompt-engineering-project/blob/main/reports/Report.md).
 
 
 ## Theory and Quiz
 
-For in-depth information about Flowise, Vector DB, and chatbots, refer to the theory and quiz section in the report.md file [here](https://github.com/Harsha-Bhargav/prompt-engineering-project/blob/main/Report.md#quiz-questions).
+For in-depth information about Flowise, Vector DB, and chatbots, refer to the theory and quiz section in the report.md file [here](reports/quiz.md).
 
 ---
 

@@ -1,14 +1,14 @@
 
-# Theoretical Foundations for Flowise Chatbot
+# Part 1: Theoretical Foundations for Flowise Chatbot
 
 ### Chatbots and AI
-Chatbots have emerged as transformative tools in educational technology, reshaping the dynamics of interaction between learners and educational content. Rooted in the evolution of artificial intelligence (AI), chatbots have witnessed significant advancements, particularly in natural language processing (NLP) [5]. These advancements have empowered chatbots to deliver personalized learning experiences, engage students in interactive discussions, and provide instant assistance with educational queries [4].
+Chatbots have emerged as transformative tools in educational technology, reshaping the dynamics of interaction between learners and educational content. Rooted in the evolution of artificial intelligence (AI), chatbots have witnessed significant advancements, particularly in natural language processing (NLP). These advancements have empowered chatbots to deliver personalized learning experiences, engage students in interactive discussions, and provide instant assistance with educational queries.
 
 ### Natural Language Processing (NLP)
-NLP serves as the backbone of chatbot functionality, enabling them to comprehend and respond to human language effectively. Through techniques like speech recognition, language understanding, and language generation, NLP equips chatbots with the ability to interpret user input, extract meaning, and generate appropriate responses [5]. Recent strides in deep learning and transformer models have further bolstered the capabilities of NLP, enhancing chatbot performance and natural language understanding [5].
+NLP serves as the backbone of chatbot functionality, enabling them to comprehend and respond to human language effectively. Through techniques like speech recognition, language understanding, and language generation, NLP equips chatbots with the ability to interpret user input, extract meaning, and generate appropriate responses. Recent strides in deep learning and transformer models have further bolstered the capabilities of NLP, enhancing chatbot performance and natural language understanding.
 
 ### Choosing Your Platform: Flowise
-For the development of our educational chatbot, we have selected Flowise as the platform of choice. Flowise stands out as an open-source, low-code tool designed specifically for building customized LLM orchestration flows and AI agents [1][2]. With its intuitive interface, Flowise simplifies the process of designing chatbot workflows, integrating various language models, and deploying conversational agents [2].
+For the development of our educational chatbot, we have selected Flowise as the platform of choice. Flowise stands out as an open-source, low-code tool designed specifically for building customized LLM orchestration flows and AI agents. With its intuitive interface, Flowise simplifies the process of designing chatbot workflows, integrating various language models, and deploying conversational agents.
 
 #### Flowise Documentation:
 - GitHub Repository: [Flowise GitHub Repository](https://github.com/FlowiseAI/Flowise)
@@ -19,23 +19,21 @@ For the development of our educational chatbot, we have selected Flowise as the 
 To implement our educational chatbot, we are leveraging Flowise along with the Pinecone Vector Database. The RAG (Retriever-Reader-Generator) model serves as the foundation for our knowledge application, allowing the chatbot to retrieve and generate responses based on user queries [6].
 
 #### Process Overview:
-1. **Setting up Flowise**: Begin by installing the necessary dependencies and starting the Flowise server as per the instructions provided in the [Flowise Getting Started Guide](https://docs.flowiseai.com/getting-started).
+1. **Setting up Flowise**: Begin by installing the necessary dependencies and starting the Flowise server as per the instructions provided in the [flowise setup.md](chatflows/flowise_setup.md).
 
 2. **Designing the Chatbot Workflow**: Utilize Flowise's visual interface to design the chatbot workflow, incorporating the RAG model and other relevant components.
 
 3. **Integrating Pinecone Vector Database**: Establish a connection between Flowise and the Pinecone vector database to store and retrieve knowledge efficiently. Pinecone's vector similarity search capabilities enhance the chatbot's ability to provide relevant responses based on user queries.
 
-4. **Training and Fine-tuning the RAG Model**: Fine-tune the RAG model using the specific knowledge base pertinent to the educational domain. This ensures that the chatbot can accurately retrieve and generate responses tailored to educational queries.
-
-5. **Testing and Deployment**: Conduct thorough testing of the chatbot to verify its functionality and accuracy. Once validated, deploy the chatbot to the desired platform or environment for user interaction.
+4. **Testing and Deployment**: Conduct thorough testing of the chatbot to verify its functionality and accuracy. Once validated, deploy the chatbot to the desired platform or environment for user interaction.
 
 By leveraging Flowise and integrating it with the Pinecone Vector Database, we can develop a robust educational chatbot powered by the RAG model. This chatbot promises to deliver accurate and relevant information to users through natural language interactions.
 
-# Quiz Questions
+## Quiz Questions
 
-Here are the practise [quiz questions:](quiz.md)
+If you want to test your understanding of the flowise chatbot here are some practise [quiz questions:](quiz.md)
 
-# Task 2: Building Your Educational Bot
+# Part 2: Building Your Educational Bot
 
 ### Purpose and Functionality
 - **Educational Bot Name:** KnowBot
@@ -57,6 +55,7 @@ Here are the practise [quiz questions:](quiz.md)
     ```
     npx flowise start
     ```
+    
 - **Setup Pinecone DB:**
   - To enable document embedding and retrieval, developers need to create an account in Pinecone DB, a vector database.
 - **Upload Chatflow:**
@@ -65,6 +64,8 @@ Here are the practise [quiz questions:](quiz.md)
 - **Get API Link:**
   - Once the chatflow is set up and documents are uploaded, developers can obtain the API link for KnowBot from the share option in Flowise.
   - This API link can be used directly to interact with KnowBot or integrated into a streamlit/flask app for a more user-friendly interface.
+
+    Detailed setup instructions [here:](chatflows/flowise_setup.md)
 
 ### Conversational Flow Design
 - **Architecture:** KnowBot leverages the RAG (Retrieval Augmented Generation) architecture, which combines retrieval of relevant information from a knowledge base with language generation to produce informative responses.
@@ -77,11 +78,9 @@ Here are the practise [quiz questions:](quiz.md)
   - **Teachers:** KnowBot serves as a valuable resource for teachers, allowing them to quickly access information and resources to supplement their teaching materials.
   - **Students:** Students can interact with KnowBot to ask questions about course materials, assignments, and projects, receiving timely and accurate assistance to enhance their learning experience.
 
-Certainly! Let's provide examples for the testing process and quality assurance:
-
 ---
 
-# Part 3: Testing, Quality Assurance, and Documentation
+# Part 3: Testing, Quality Assurance
 
 ### Task 1: Testing Your Bot
 

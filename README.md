@@ -47,7 +47,7 @@ To get the chatbot API or bot UI:
 To test KnowBot:
 1. Upload a document and check the answers on this document.
 2. Ensure error handling is functional.
-Detailed testing instructions can be found in the report file [here](https://github.com/Harsha-Bhargav/prompt-engineering-project/blob/main/reports/Report.md).
+Detailed testing instructions can be found in the report file [here](reports/Report.md).
 
 
 # Publishing the Chatbot
@@ -62,7 +62,7 @@ The chatbot can be published using various methods to make it accessible to stud
 
 Students can choose any of these methods to access and interact with the chatbot. Each option has its own advantages and can be selected based on the project's needs and the desired user experience.
 
-## Here is a detailed video explaing the usage of this flowise repo:
+## Here is a detailed demo video of this flowise-project repo:
 
 
 https://github.com/Harsha-Bhargav/prompt-engineering-project/assets/123515723/69f67036-7ee4-40f2-bc42-da3cc030766b

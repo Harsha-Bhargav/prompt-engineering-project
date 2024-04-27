@@ -1,6 +1,6 @@
 # Chatbot Project: KnowBot
 
-This project serves as a guide on how to create a chatbot from scratch. Developed as a part of the Prompt Engineering course (Info 7375) for Spring '24 at Northeastern University under the guidance of Prof. Nick Bear Brown.
+This project serves as a guide on how to create a chatbot from scratch usign little to no code through Flowise using. Developed as a part of the Prompt Engineering course (Info 7375) for Spring '24 at Northeastern University under the guidance of Prof. Nick Bear Brown.
 
 ## Project Overview
 

@@ -1,6 +1,6 @@
 # Chatbot Project: KnowBot
 
-This project serves as a guide on how to create a chatbot from scratch usign little to no code through Flowise using. Developed as a part of the Prompt Engineering course (Info 7375) for Spring '24 at Northeastern University under the guidance of Prof. Nick Bear Brown.
+This project serves as a guide on how to create a chatbot from scratch usign little to no code. Developed as a part of the Prompt Engineering course (Info 7375) for Spring '24 at Northeastern University under the guidance of Prof. Nick Bear Brown.
 
 ## Project Overview
 
@@ -20,12 +20,13 @@ The primary objective of this project is to develop KnowBot, an intelligent TA b
 
 ### Setting up Flowise and Pinecone Vector Database
 
-Detailed instructions for setting up Flowise and Pinecone Vector Database can be found in the README file [here](chatflows/flowise_setup.md).
+Detailed instructions for setting up Flowise and Pinecone Vector Database can be found in **flowise_setup.md** file [here](chatflows/flowise_setup.md).
 
 ### Programming the Chatbot
 
 To program KnowBot, follow these steps:
-1. Upload PDFs of class-related documents to the bot in the Flowise UI on localhost port 3000 in the Chatflows section.
+1. Upload PDFs of class-related documents to the bot in the Flowise UI on localhost port 3000 in the Chatflows section. As shown here:
+
 
 ### Obtaining the Chatbot API
 

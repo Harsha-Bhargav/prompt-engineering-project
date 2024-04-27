@@ -99,6 +99,7 @@ Installation Steps:
 3. Access the Flowise application by opening your web browser and navigating to `http://localhost:3000`.
 
 Choose the method that best suits your needs and environment. For more detailed information on configuration and deployment options, please refer to the official Flowise documentation at https://docs.flowiseai.com/ .
+<img width="1425" alt="image" src="https://github.com/Harsha-Bhargav/prompt-engineering-project/assets/123515723/9993a9b4-640a-4159-9b70-f804e532ce6d">
 
 
 # Setting up Pinecone Vector Database for Knowbot Application
@@ -154,6 +155,7 @@ To enable document embedding and retrieval for your Knowbot application, you nee
 2. The `upsert` operation will add the embeddings to the Pinecone index, allowing for efficient vector similarity search.
 
 By following these steps, you will have set up a Pinecone vector database to store and retrieve document embeddings for your Knowbot application. The Pinecone index will enable fast and accurate retrieval of relevant documents based on user queries [4].
+<img width="1438" alt="image" src="https://github.com/Harsha-Bhargav/prompt-engineering-project/assets/123515723/41076b2c-e3fd-449d-87bd-67a4f5c0b05e">
 
 Citations:
 [1] https://docs.flowiseai.com/getting-started

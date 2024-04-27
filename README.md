@@ -60,17 +60,3 @@ The chatbot can be published using various methods to make it accessible to stud
 3. Flask App: The chatbot can also be published using a Flask app located in the frontend folder. This method offers flexibility and customization options. By using Flask, you can integrate the chatbot with other features of your application and tailor it to your specific requirements.
 
 Students can choose any of these methods to access and interact with the chatbot. Each option has its own advantages and can be selected based on the project's needs and the desired user experience.
-
-
-The chatbot can be published using the following methods:
-
-1. Flowise Chatbot UI: The chatbot can be published using the Flowise Chatbot UI. This allows for easy deployment and management of the chatbot.
-
-2. Streamlit App: The chatbot can also be published as a Streamlit app. This provides a user-friendly interface for interacting with the chatbot.
-
-3. Flask App: Another option is to publish the chatbot using a Flask app located in the frontend folder. This allows for customization and integration with other components of the application.
-
-Students can choose any of these methods to access and interact with the chatbot.
-
-
-

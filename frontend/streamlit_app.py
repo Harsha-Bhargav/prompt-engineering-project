@@ -30,7 +30,7 @@ def main():
     if st.button("Send"):
         if user_input:
             bot_response = chatbot(user_input)
-            st.session_state.chat_history.append({"You": user_input, "Bot": bot_response["answer"] if "answer" in bot_response else "Sorry, I couldn't understand that."})
+            st.session_state.chat_history.append({"You": user_input, "Bot": bot_response["text"] if "text" in bot_response else "Sorry, I couldn't understand that."})
 
         else:
             st.write("Please enter a message.")

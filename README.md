@@ -61,7 +61,7 @@ The chatbot can be published using various methods to make it accessible to stud
 
 Students can choose any of these methods to access and interact with the chatbot. Each option has its own advantages and can be selected based on the project's needs and the desired user experience.
 
-## Here is a detailed video explaing the useage of this flowise repo:
+## Here is a detailed video explaing the usage of this flowise repo:
 
 
 https://github.com/Harsha-Bhargav/prompt-engineering-project/assets/123515723/69f67036-7ee4-40f2-bc42-da3cc030766b

@@ -46,7 +46,7 @@ Detailed testing instructions can be found in the report file [here](https://git
 
 ## Theory and Quiz
 
-For in-depth information about Flowise, Vector DB, and chatbots, refer to the theory and quiz section in the report.md file [here]((https://github.com/Harsha-Bhargav/prompt-engineering-project/blob/main/Report.md#quiz-questions)).
+For in-depth information about Flowise, Vector DB, and chatbots, refer to the theory and quiz section in the report.md file [here](https://github.com/Harsha-Bhargav/prompt-engineering-project/blob/main/Report.md#quiz-questions).
 
 ---
 

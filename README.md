@@ -49,6 +49,3 @@ Detailed testing instructions can be found in the report file [here](https://git
 
 For in-depth information about Flowise, Vector DB, and chatbots, refer to the theory and quiz section in the report.md file [here](reports/quiz.md).
 
----
-
-This README provides a comprehensive overview of the project, including its objectives, technology stack, setup instructions, testing process, and resources for further exploration. Feel free to expand or modify any section as needed.

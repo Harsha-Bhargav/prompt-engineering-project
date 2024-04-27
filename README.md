@@ -16,6 +16,10 @@ The primary objective of this project is to develop KnowBot, an intelligent TA b
 - **Pinecone Vector Database:** Used for efficient storage and retrieval of knowledge in vecor format.
 - **OpenAI models:** Employs AI models for natural language understanding and generation of embeddings.
 
+## Theory and Quiz
+
+For in-depth information about Flowise, Vector DB, and chatbots, refer to the theory and quiz section in the report.md file [here](reports/quiz.md).
+
 ## Setup Instructions
 
 ### Setting up Flowise and Pinecone Vector Database
@@ -45,7 +49,28 @@ To test KnowBot:
 Detailed testing instructions can be found in the report file [here](https://github.com/Harsha-Bhargav/prompt-engineering-project/blob/main/reports/Report.md).
 
 
-## Theory and Quiz
+# Publishing the Chatbot
 
-For in-depth information about Flowise, Vector DB, and chatbots, refer to the theory and quiz section in the report.md file [here](reports/quiz.md).
+The chatbot can be published using various methods to make it accessible to students. Here are the three options available:
+
+1. Flowise Chatbot UI: The chatbot can be published using the Flowise Chatbot UI. This method provides an intuitive interface for deploying and managing the chatbot. It allows for easy customization of the chatbot's behavior and integration with other components of the application.
+
+2. Streamlit App: Another option is to publish the chatbot as a Streamlit app. Streamlit provides a user-friendly interface for interacting with the chatbot. This method is ideal for creating a standalone application that can be accessed by students without any additional setup.
+
+3. Flask App: The chatbot can also be published using a Flask app located in the frontend folder. This method offers flexibility and customization options. By using Flask, you can integrate the chatbot with other features of your application and tailor it to your specific requirements.
+
+Students can choose any of these methods to access and interact with the chatbot. Each option has its own advantages and can be selected based on the project's needs and the desired user experience.
+
+
+The chatbot can be published using the following methods:
+
+1. Flowise Chatbot UI: The chatbot can be published using the Flowise Chatbot UI. This allows for easy deployment and management of the chatbot.
+
+2. Streamlit App: The chatbot can also be published as a Streamlit app. This provides a user-friendly interface for interacting with the chatbot.
+
+3. Flask App: Another option is to publish the chatbot using a Flask app located in the frontend folder. This allows for customization and integration with other components of the application.
+
+Students can choose any of these methods to access and interact with the chatbot.
+
+
 

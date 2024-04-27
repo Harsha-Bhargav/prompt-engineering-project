@@ -26,15 +26,16 @@ Detailed instructions for setting up Flowise and Pinecone Vector Database can be
 
 To program KnowBot, follow these steps:
 1. Upload PDFs of class-related documents to the bot in the Flowise UI on localhost port 3000 in the Chatflows section. As shown here:
-<img width="468" alt="image" src="https://github.com/Harsha-Bhargav/prompt-engineering-project/assets/123515723/2b91471a-ff14-47f8-a8fc-da9eb4e37903">
+<img width="1115" alt="image" src="https://github.com/Harsha-Bhargav/prompt-engineering-project/assets/123515723/e713f4ab-0207-41ad-b612-5171536a3f6b">
+
 
 
 ### Obtaining the Chatbot API
 
 To get the chatbot API or bot UI:
 1. Add a `.env` file with the API_URL, replacing it with the URL obtained from Flowise.
+<img width="1069" alt="image" src="https://github.com/Harsha-Bhargav/prompt-engineering-project/assets/123515723/93860666-8d69-446f-8607-358d6f8f8285">
 
-<img width="468" alt="image" src="https://github.com/Harsha-Bhargav/prompt-engineering-project/assets/123515723/0853fb8b-0b08-4497-98a3-c6f87042033a">
 
 ### Testing Process
 
